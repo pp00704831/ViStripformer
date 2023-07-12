@@ -3,7 +3,6 @@ Pytorch Implementation of "ViStripformer: A Token-Efficient Transformer for
 Versatile Video Restoration" 
 
 <img src="./Figures/GoPro.PNG" width = "450" height = "350" div align=center />
-<img src="./Figures/BSD.PNG" width = "300" height = "200" div align=center />
 
 
 ## Installation
