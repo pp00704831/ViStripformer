@@ -1,4 +1,4 @@
-# Video-Stripformer
+# Video-Stripformer (ViStripformer)
 Pytorch Implementation of "ViStripformer: A Token-Efficient Transformer for
 Versatile Video Restoration" 
 
