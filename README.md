@@ -14,5 +14,7 @@ pip install scipy
 ```
 ## Testing
 You can find the pre-trained weights for deblurring in "[Here](https://drive.google.com/drive/folders/1UDNPTsGrzhW40yqsH6cXBqwRABBv7x2K?usp=drive_link)"
+
 For reproducing our ViStripformer results on GoPro datasets, download 'Video_Stripformer_GoPro.pth'
+
 For reproducing our ViStripformer+ results on GoPro datasets, download 'Video_Stripformer_Plus_GoPro.pth'
