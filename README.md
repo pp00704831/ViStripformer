@@ -13,6 +13,6 @@ pip install opencv-python
 pip install scipy
 ```
 ## Testing
-For reproducing our ViStripformer results on GoPro datasets, download "[Video_Stripformer_GoPro](https://drive.google.com/file/d/1MUXhodPZM3OEho2Kmx0vsPCEyVrbfw2f/view?usp=drive_link)"
-
-For reproducing our ViStripformer+ results on GoPro datasets, download "[Video_Stripformer_Plus_GoPro](https://drive.google.com/file/d/1KhZVXVurwefFo_9El1pkhI7_Xvp550yy/view?usp=drive_link)"
+You can find the pre-trained weights for deblurring in "[Here](https://drive.google.com/drive/folders/1UDNPTsGrzhW40yqsH6cXBqwRABBv7x2K?usp=drive_link)"
+For reproducing our ViStripformer results on GoPro datasets, download 'Video_Stripformer_GoPro.pth'
+For reproducing our ViStripformer+ results on GoPro datasets, download 'Video_Stripformer_Plus_GoPro.pth'
