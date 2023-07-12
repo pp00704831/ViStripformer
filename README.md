@@ -18,3 +18,5 @@ You can find the pre-trained weights for deblurring in "[Here](https://drive.goo
 For reproducing our ViStripformer results on GoPro datasets, download 'Video_Stripformer_GoPro.pth'
 
 For reproducing our ViStripformer+ results on GoPro datasets, download 'Video_Stripformer_Plus_GoPro.pth'
+
+For reproducing our ViStripformer results on BSD datasets, download 'Video_Stripformer_BSD.pth'
