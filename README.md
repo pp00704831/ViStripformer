@@ -20,7 +20,7 @@ pip install scipy
 * For reproducing our ViStripformer results on GoPro datasets, download 'Video_Stripformer_GoPro.pth' </br>
 * For reproducing our ViStripformer+ results on GoPro datasets, download 'Video_Stripformer_Plus_GoPro.pth' </br>
 * For reproducing our ViStripformer results on BSD datasets, download 'Video_Stripformer_BSD.pth'
-* Run the following command
+* Run the following command (take ViStripformer+ on GoPro dataets for an example)
 ```
 python predict_Video_Stripformer_Plus_GoPro.py 
 ```
