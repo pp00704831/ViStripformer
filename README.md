@@ -37,5 +37,13 @@ python predict_Video_Stripformer_RainSynAll100.py
 ```
 python predict_Video_Stripformer_Complex25.py
 ```
+**For Demoireing** </br>
+* You can find the pre-trained weights for deraining in "[Here](https://drive.google.com/drive/folders/17IMJphbG50uBOrqQJ2USZJLuyjVPa01t?usp=drive_link)" </br>
+* Download the pre-trained weights for deblurring and put them into './weights/Demoireing'
+* Run the following command to reproduce our results 
+```
+python predict_Video_Stripformer_TCL.py
+```
+
 
 
