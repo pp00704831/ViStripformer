@@ -14,6 +14,8 @@ pip install scipy
 ```
 ## Testing
 
+Download the datasets and put them in './dataset'
+
 **For Deblurring** </br>
 * You can find the pre-trained weights for deblurring in "[Here](https://drive.google.com/drive/folders/1UDNPTsGrzhW40yqsH6cXBqwRABBv7x2K?usp=drive_link)" </br>
 * Download the pre-trained weights for deblurring and put them into './weights/Deblur'
