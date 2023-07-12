@@ -47,5 +47,31 @@ python predict_Video_Stripformer_Complex25.py
 python predict_Video_Stripformer_TCL.py
 ```
 
+## Evaluation
+**For Deblurring** </br>
+* Run the following command
+```
+python calculate_psnr_GoPro.py
+```
+```
+python calculate_psnr_GoPro_Plus.py
+```
+```
+python calculate_psnr_BSD.py
+```
+**For Deraining** </br>
+* Run the following command
+```
+python calculate_psnr_RainA100.py
+```
+```
+python calculate_psnr_RainSynComplex25.py
+```
+**For Demoireing** </br>
+* Run the following command
+```
+python calculate_psnr_TCL.py
+```
+
 
 
