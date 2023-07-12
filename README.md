@@ -27,3 +27,15 @@ python predict_Video_Stripformer_GoPro.py
 ```
 python predict_Video_Stripformer_BSD.py
 ```
+**For Deraining** </br>
+* You can find the pre-trained weights for deraining in "[Here](https://drive.google.com/drive/folders/1D_0YX4dVGGBWCLKoUZkkqSLFgXOotOh9?usp=drive_link)" </br>
+* Download the pre-trained weights for deblurring and put them into './weights/Derain'
+* Run the following command to reproduce our results 
+```
+python predict_Video_Stripformer_RainSynAll100.py
+```
+```
+python predict_Video_Stripformer_Complex25.py
+```
+
+
