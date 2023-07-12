@@ -13,7 +13,7 @@ cv2.setNumThreads(0)
 # hyperparameters
 frame_num = 16
 data_path = './dataset/tcl/test'
-model_name = './weights/Demoring/Video_Stripformer_TCL.pth'
+model_name = './weights/Demoireing/Video_Stripformer_TCL.pth'
 save_dir = './out/Video_Stripformer_TCL'
 print('Save at:', save_dir)
 if not os.path.isdir('out'):
