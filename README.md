@@ -17,10 +17,13 @@ pip install scipy
 **For Deblurring** </br>
 * You can find the pre-trained weights for deblurring in "[Here](https://drive.google.com/drive/folders/1UDNPTsGrzhW40yqsH6cXBqwRABBv7x2K?usp=drive_link)" </br>
 * Download the pre-trained weights for deblurring and put them into './weights/Deblur'
-* For reproducing our ViStripformer results on GoPro datasets, download 'Video_Stripformer_GoPro.pth' </br>
-* For reproducing our ViStripformer+ results on GoPro datasets, download 'Video_Stripformer_Plus_GoPro.pth' </br>
-* For reproducing our ViStripformer results on BSD datasets, download 'Video_Stripformer_BSD.pth'
-* Run the following command (take ViStripformer+ on GoPro dataets for an example)
+* Run the following command to reproduce our results 
 ```
-python predict_Video_Stripformer_Plus_GoPro.py 
+python predict_Video_Stripformer_Plus_GoPro.py
+```
+```
+python predict_Video_Stripformer_GoPro.py
+```
+```
+python predict_Video_Stripformer_BSD.py
 ```
