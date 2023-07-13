@@ -18,7 +18,7 @@ pip install scipy
 ```
 ## Testing
 
-Download the datasets and put them in './dataset'
+Download the "[datasets](https://drive.google.com/drive/folders/1oR8oNE8VmntEOLcGbCFtWoxOJ5TnzvON?usp=drive_link)" and put them in './dataset'
 
 **For Deblurring** </br>
 * You can find the pre-trained weights for deblurring in "[Here](https://drive.google.com/drive/folders/1UDNPTsGrzhW40yqsH6cXBqwRABBv7x2K?usp=drive_link)" </br>
