@@ -2,7 +2,7 @@
 Pytorch Implementation of "ViStripformer: A Token-Efficient Transformer for
 Versatile Video Restoration" 
 
-<img src="./Figures/Figure_1.PNG" width = "800" height = "500" div align=center />
+<img src="./Figures/Figure_1.PNG" width = "800" height = "400" div align=center />
 <img src="./Figures/Figure_2.PNG" width = "800" height = "150" div align=center />
 
 
