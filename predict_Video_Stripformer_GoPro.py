@@ -23,6 +23,7 @@ if not os.path.isdir(save_dir):
 
 # Model and optimizer
 net = Video_Stripformer()
+net.half()
 net.load_state_dict(torch.load(model_name))
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 net.to(device)
@@ -74,7 +75,7 @@ for _, video in enumerate(os.listdir(data_path)):
         with torch.no_grad():
             torch.cuda.synchronize()
             start = time.time()
-            out = net(in_seq, all).clamp(-0.5, 0.5)
+            out = net(in_seq.half(), all).clamp(-0.5, 0.5)
             if idx == 0:
                 out = out[:, :-1]
             if idx == len(clip_dir) - 1:

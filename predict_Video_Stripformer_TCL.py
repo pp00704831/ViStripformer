@@ -13,7 +13,7 @@ cv2.setNumThreads(0)
 # hyperparameters
 frame_num = 16
 data_path = './dataset/tcl/test'
-model_name = './weights/Demoireing/Video_Stripformer_TCL.pth'
+model_name = './Video_Stripformer_TCL.pth'
 save_dir = './out/Video_Stripformer_TCL'
 print('Save at:', save_dir)
 if not os.path.isdir('out'):
@@ -23,10 +23,10 @@ if not os.path.isdir(save_dir):
 
 # Model and optimizer
 net = Video_Stripformer()
+net.half()
 net.load_state_dict(torch.load(model_name))
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 net.to(device)
-
 
 
 total_runtime = 0.
@@ -73,7 +73,7 @@ for _, video in enumerate(os.listdir(os.path.join(data_path, 'source'))):
         with torch.no_grad():
             torch.cuda.synchronize()
             start = time.time()
-            out = net(in_seq, all).clamp(-0.5, 0.5)
+            out = net(in_seq.half(), all).clamp(-0.5, 0.5)
             if idx == 0:
                 out = out[:, :-1]
             if idx == len(clip_dir) - 1:

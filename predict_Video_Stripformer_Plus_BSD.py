@@ -1,5 +1,5 @@
 import torch
-from model.Video_Stripformer import Video_Stripformer
+from model.Video_Stripformer_Plus import Video_Stripformer_Plus
 import torch.nn as nn
 import cv2
 import os
@@ -13,8 +13,8 @@ cv2.setNumThreads(0)
 # hyperparameters
 frame_num = 16
 data_path = './dataset/BSD_2ms16ms/test'
-model_name = './weights/Deblur/Video_Stripformer_BSD.pth'
-save_dir = './out/Video_Stripformer_BSD'
+model_name = './weights/Deblur/Video_Stripformer_Plus_BSD.pth'
+save_dir = './out/Video_Stripformer_Plus_BSD'
 print('Save at:', save_dir)
 if not os.path.isdir('out'):
     os.mkdir('out')
@@ -22,7 +22,7 @@ if not os.path.isdir(save_dir):
     os.mkdir(save_dir)
 
 # Model and optimizer
-net = Video_Stripformer()
+net = Video_Stripformer_Plus()
 net.half()
 net.load_state_dict(torch.load(model_name))
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
