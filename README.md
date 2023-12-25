@@ -66,6 +66,9 @@ python calculate_psnr_GoPro_Plus.py
 ```
 python calculate_psnr_BSD.py
 ```
+```
+python calculate_psnr_BSD_Plus.py
+```
 **For Deraining** </br>
 * Run the following command
 ```
