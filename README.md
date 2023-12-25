@@ -1,10 +1,9 @@
 # ViStripformer (Video-Stripformer)
-Pytorch Implementation of "ViStripformer: A Token-Efficient Transformer for
-Versatile Video Restoration" 
+Pytorch Implementation of [ViStripformer: A Token-Efficient Transformer for
+Versatile Video Restoration](https://arxiv.org/abs/2312.14502)
+
 
 <img src="./Figures/vistripformer.png" width = "800" height = "400" div align=center />
-
-
 
 ## Installation
 ```
