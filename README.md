@@ -31,6 +31,9 @@ python predict_Video_Stripformer_Plus_GoPro.py
 python predict_Video_Stripformer_GoPro.py
 ```
 ```
+python predict_Video_Stripformer_Plus_BSD.py
+```
+```
 python predict_Video_Stripformer_BSD.py
 ```
 **For Deraining** </br>
